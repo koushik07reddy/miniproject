@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+.heading {
+  background-color: salmon;
+  padding: 10px;
+  margin: 0px;
+}
+.container {
+  width: auto;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav ul {
+  padding: 0;
+}
+
+/* Navbar links */
+.topnav a {
+  display: block;
+
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav ul {
+  display: flex;
+  justify-content: left;
+}
+.topnav a {
+  flex: 1 1 0;
+}
+
+main{
+  width: 80%;
+  margin: auto;
+}
+
+h2, h3 {
+  font-size: 32px;
+  text-align: center;
+  color: #333;
+}
+
+body{
+  text-align: center;
+}
+
+@media(max-width: 500px ) {
+  main{
+    width: 95%;
+  }
+}

@@ -1,0 +1,63 @@
+body {
+  margin: 0px;
+}
+.po {
+  position: relative;
+}
+
+.pic1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  overflow: scroll;
+  scroll-behavior: auto;
+  max-height: 100vh;
+}
+.pic3 img {
+  width: 250px;
+}
+.pic1 img {
+  margin: 10px;
+  border: 3px solid #000;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+  height: 250px;
+}
+.tro {
+  background-color: salmon;
+  padding: 10px;
+  margin: 0px;
+}
+.container {
+  width: auto;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav ul {
+  padding: 0;
+}
+
+/* Navbar links */
+.topnav a {
+  display: block;
+
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav ul {
+  display: flex;
+  justify-content: left;
+}
+.topnav a {
+  flex: 1 1 0;
+}
